@@ -1,8 +1,6 @@
-Despa Diana-Alexandra 321CA
-
-Protocoale de Comunicatii - TEMA 1
-
-	In implementarea temei am utilizat scheletul de cod de la primele laboratoare. Algoritmul este bazat pe pseudocodul si specificatiile din enunt. Atat pentru sender, cat si pentru receiver, am implementat mai multe functii care au rolul de a scrie in fisierul log.txt de fiecare data cand se produce un eveniment semnificativ pentru transmiterea de informatii.
+Simple Client Server Communication Protocol
+	
+	Algoritmul este bazat pe pseudocodul si specificatiile din enunt. Atat pentru sender, cat si pentru receiver, am implementat mai multe functii care au rolul de a scrie in fisierul log.txt de fiecare data cand se produce un eveniment semnificativ pentru transmiterea de informatii.
 	Precizez cam am modificat fisierul "lib.h" din directorul curent: am definit simboluri si am implementat functii pe care le folosesc in sender si receiver, pentru a evita codul duplicat.
 	De asemenea, am modificat si scriptul run_experiment.sh : am ales pentru parametrul SPEED valoarea 10 ca transmisia sa fie mai rapida, pentru LOSS valoarea 1, pentru a determina pierderea unui packet, pentru CORRUPT 25 pentru a produce coruperea a 25% din pachete, si am transmis ca parametru in linia de comanda executabilului recv fisierul de intrare pentru ca el sa genereze in program un fisier de iesire cu aceeasi extensie dar avand caracterul "1" la sfarsit.
 	Alegerile facute de mine pentru parametrii programului au scopul de a simula o transmitere de pachete la o viteza rezonabila in care pot aparea mai multe situatii si evenimente: pierdere sau corupere de pachete, depasire timeout, trimitere de pachete duplicate.
